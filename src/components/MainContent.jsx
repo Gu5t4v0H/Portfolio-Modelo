@@ -1,5 +1,7 @@
 import '../styles/components/maincontent.sass';
 import TechnologiesContainer from './TechnologiesContainer';
+import ProjectsContainer from './Projects';
+
 
 const MainContent = () => {
   return (
@@ -7,7 +9,7 @@ const MainContent = () => {
 
       <p>About</p>
       <TechnologiesContainer />
-      <p>Projects</p>
+      <ProjectsContainer />
     </main>
   );
 };
